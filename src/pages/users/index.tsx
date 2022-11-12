@@ -14,7 +14,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
-import { Pagination } from "../../components/Form/Pagination";
+import { Pagination } from "../../components/Pagination";
 import { Header } from "../../components/Header";
 import { Sidebar } from "../../components/Sidebar";
 
@@ -53,6 +53,60 @@ export default function UserList() {
               </Tr>
             </Thead>
             <Tbody>
+              <Tr>
+                <Td px="6">
+                  <Checkbox colorScheme="pink" />
+                </Td>
+                <Td>
+                  <Box>
+                    <Text fontWeight="bold">Marcus Davanco</Text>
+                    <Text fontSize="sm" color="gray.300">
+                      marcusdavanco@dashgo.com
+                    </Text>
+                  </Box>
+                </Td>
+                <Td>
+                  <Text>12 de novembro, 2022</Text>
+                </Td>
+                <Td>
+                  <Button
+                    as="a"
+                    size="sm"
+                    fontSize="sm"
+                    colorScheme="purple"
+                    leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
+                  >
+                    Editar
+                  </Button>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td px="6">
+                  <Checkbox colorScheme="pink" />
+                </Td>
+                <Td>
+                  <Box>
+                    <Text fontWeight="bold">Marcus Davanco</Text>
+                    <Text fontSize="sm" color="gray.300">
+                      marcusdavanco@dashgo.com
+                    </Text>
+                  </Box>
+                </Td>
+                <Td>
+                  <Text>12 de novembro, 2022</Text>
+                </Td>
+                <Td>
+                  <Button
+                    as="a"
+                    size="sm"
+                    fontSize="sm"
+                    colorScheme="purple"
+                    leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
+                  >
+                    Editar
+                  </Button>
+                </Td>
+              </Tr>
               <Tr>
                 <Td px="6">
                   <Checkbox colorScheme="pink" />
